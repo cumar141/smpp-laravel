@@ -33,7 +33,6 @@ class SMPPService
 
             // Activate binary hex-output of server interaction
             $this->smppClient->debug = $debug;
-            $this->transport->debug = $debug;
 
             $this->host = $username;
             $this->password = $password;
