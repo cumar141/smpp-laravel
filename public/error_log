@@ -1,0 +1,12 @@
+[29-May-2025 18:04:52 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/somxcha1/test1.somxchange.dev/vendor/symfony/http-foundation/Response.php:387) in /home/somxcha1/test1.somxchange.dev/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/somxcha1/test1.somxchange.dev/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/somxcha1/test1.somxchange.dev/vendor/symfony/http-foundation/Response.php(322): header()
+#3 /home/somxcha1/test1.somxchange.dev/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/somxcha1/test1.somxchange.dev/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/somxcha1/test1.somxchange.dev/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/somxcha1/test1.somxchange.dev/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/somxcha1/test1.somxchange.dev/vendor/symfony/http-foundation/Response.php on line 322

@@ -1,0 +1,10 @@
+[29-May-2025 17:43:07 UTC] PHP Warning:  require(/home/somxcha1/test1.somxchange.dev/vendor/autoload.php): Failed to open stream: No such file or directory in /home/somxcha1/test1.somxchange.dev/artisan on line 9
+[29-May-2025 17:43:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/somxcha1/test1.somxchange.dev/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/somxcha1/test1.somxchange.dev/artisan:9
+Stack trace:
+#0 {main}
+  thrown in /home/somxcha1/test1.somxchange.dev/artisan on line 9
+[29-May-2025 17:43:41 UTC] PHP Warning:  require(/home/somxcha1/test1.somxchange.dev/vendor/autoload.php): Failed to open stream: No such file or directory in /home/somxcha1/test1.somxchange.dev/artisan on line 9
+[29-May-2025 17:43:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/somxcha1/test1.somxchange.dev/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/somxcha1/test1.somxchange.dev/artisan:9
+Stack trace:
+#0 {main}
+  thrown in /home/somxcha1/test1.somxchange.dev/artisan on line 9

@@ -29,7 +29,7 @@ class SMPPService
             $this->transport = new Socket([$host], $port);
             $this->transport->setRecvTimeout($timeout);
             $this->transport->setSendTimeout($timeout);
-            $this->smppClient = new SmppClient($this->transport);
+            $this->smppClient = new SmppClient($this->transport);dd($this->smppClient);
 
             // Activate binary hex-output of server interaction
             $this->smppClient->debug = $debug;
